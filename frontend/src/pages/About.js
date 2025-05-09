@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
-import {logo} from './index'
-
+import { logo } from './index';
 
 const About = () => {
   return (
@@ -22,10 +21,26 @@ const About = () => {
         <p>This website is primarily intended for developers who wish to contribute to open source software but are unsure of where or how to begin. This website gives developers filters so they may search and choose issues and repositories based on the programming languages they are most familiar with. Additionally, they have a choice in the issues they choose to address.</p>
       </div>
       <hr />
-
       <div className="contribution">
         <h2>Contribution Guidelines</h2>
         <p>Welcome hackers it is really awesome have you here! Before start contributing with this project make sure you read our <a href="https://github.com/clubgamma/Good_First_Issue_Web_App/blob/main/CODE_OF_CONDUCT.md">Code Of Conduct</a>, it is really important to make this inclusive and open to everyone, otherwise, it would not be awesome to have you here</p>
+      </div>
+      <hr />
+      {/* New sections added below  by lakir*/}
+      <div className="our-mission">
+        <h2>Our Mission</h2>
+        <p>At Club Gamma, we believe in fostering a community of passionate developers who are eager to contribute to the open-source ecosystem. Our mission is to make the process of finding suitable beginner-friendly issues easier and more accessible for everyone. We are dedicated to creating a welcoming space where everyone, regardless of experience level, can grow their skills and make meaningful contributions to the tech world.</p>
+      </div>
+      <hr />
+      <div className="future-plans">
+        <h2>Future Plans</h2>
+        <p>Looking ahead, we plan to enhance the GFI-Web-app by integrating more advanced AI-powered recommendations, supporting additional programming languages, and collaborating with more open-source projects to further expand the pool of available GFIs. We also aim to develop educational resources and mentorship opportunities to help users grow beyond their first contributions and become long-term contributors in the open-source community.</p>
+      </div>
+      <hr />
+      <div className="call-to-action">
+        <h2>Join Us!</h2>
+        <p>Are you ready to make an impact? Join the Club Gamma community today and start contributing to meaningful projects that empower developers like you. Together, we can change the future of open source!</p>
+        <a href="https://github.com/clubgamma" className="cta-btn">Join Club Gamma</a>
       </div>
     </div>
   );
